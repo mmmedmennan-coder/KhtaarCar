@@ -1,0 +1,6 @@
+{
+  "name": "KhtaarCar Maroc",
+  "description": "Morocco's Premier Car Rental and Direct Negotiation Platform, powered by AI smart bidding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

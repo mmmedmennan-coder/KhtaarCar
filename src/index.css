@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "leaflet/dist/leaflet.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Outfit', 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Custom Morocco Sahara & Oasis Slate Palette */
+  --color-brand-gold-50: #fffbeb;
+  --color-brand-gold-100: #fef3c7;
+  --color-brand-gold-500: #ba7517; /* Noble Moroccan Gold */
+  --color-brand-gold-600: #9b6014;
+  --color-brand-gold-700: #854f0b;
+  --color-brand-gold-900: #451a03;
+
+  --color-brand-dark-500: #0f172a; /* Slate Dark */
+  --color-brand-dark-600: #1e293b;
+  --color-brand-dark-700: #334155;
+  --color-brand-dark-800: #1e293b;
+  --color-brand-dark-950: #020617;
+}
+
+/* Base custom styles if needed */
+body {
+  font-family: var(--font-sans);
+  background-color: #090d16;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ba7517;
+}
+
